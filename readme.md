@@ -1,16 +1,14 @@
 # Assignment
 
-## Objectives
+## How to use the app!
 
-By the end of this project you will:
-
-- clone a Github project.
-- install a npm package.
-- debug a piece of code.
+- run npm install.
+- run npm start and in the browser go to localhost:3000.
+- enjoy the quotes.
 
 ## Introduction
 
-Our intern Dan is working on this killer Movie Quotes App that returns a random movie quote. Right now all it does is render a blank screen in the web browser. Fork the repository found here and help Dan fix it.  
+Our intern Dan is working on this killer Movie Quotes App that returns a random movie quote. Right now all it does is render a blank screen in the web browser. Fork the repository found here and help Dan fix it.
 
 ## Specifications
 

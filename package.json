@@ -4,29 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "seed": "node script/seed.js",
-    "start:dev": "npm run build-watch & npm run start-server",
-    "start-server": "nodemon --watch server main.js -e html,js,css",
-    "build-watch": "webpack -w",
-    "start": "echo 'Running server for production - developers, use npm run start:dev for development' && node main",
+    "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Carina Lopez",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^6.1.4",
-    "nodemon": "^1.18.3",
-    "npm-merge-driver": "^2.3.5",
-    "morgan": "^1.9.1",
     "express": "^4.16.4",
-    "webpack": "^4.16.4",
-    "pg": "^7.9.0",
-    "pg-hstore": "^2.3.2",
-    "prop-types": "^15.7.2",
-    "sequelize": "^5.15.1"
-  },
-  "devDependencies": {
-    "webpack-cli": "^3.3.10"
+    "random-movie-quotes": "^1.0.3"
   }
 }
